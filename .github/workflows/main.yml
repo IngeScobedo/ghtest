@@ -15,3 +15,4 @@ jobs:
         ftp-username: kirbyghactions
         ftp-password: FtpDeploy123
         server-dir: /public_html/
+        local-dir: /public_html/
