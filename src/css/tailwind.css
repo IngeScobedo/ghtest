@@ -9,4 +9,5 @@
     .btn-blue-dark {
         @apply py-4 px-2 text-white bg-blue-dark rounded-[5px] text-[16px] font-bold min-w-[151px] text-center;
     }
+    
 }
