@@ -17,4 +17,4 @@ jobs:
         server: files.000webhost.com
         username: ${{ secrets.ftp_username }}
         password: ${{ secrets.ftp_password }}
-        server-dir: /public_html/staging/
+        server-dir: /public_html/
