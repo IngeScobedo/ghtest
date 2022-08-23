@@ -1,0 +1,4 @@
+name: Imagen
+accept:
+  type: image
+  mime: image/*

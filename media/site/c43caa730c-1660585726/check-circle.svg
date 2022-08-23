@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <g id="Grupo_564" data-name="Grupo 564" transform="translate(-114.5 -296.5)">
+    <rect id="Rectángulo_440" data-name="Rectángulo 440" width="20" height="20" transform="translate(114.5 296.5)" fill="none"/>
+    <path id="check-circle" d="M16.5,8A8.5,8.5,0,1,0,25,16.5,8.5,8.5,0,0,0,16.5,8Zm0,1.645A6.855,6.855,0,1,1,9.645,16.5,6.851,6.851,0,0,1,16.5,9.645m4.805,4.465-.772-.779a.411.411,0,0,0-.582,0l-4.845,4.806-2.049-2.066a.411.411,0,0,0-.582,0l-.779.772a.411.411,0,0,0,0,.582l3.111,3.137a.411.411,0,0,0,.582,0L21.3,14.692A.411.411,0,0,0,21.305,14.11Z" transform="translate(108 290)" fill="#007db3"/>
+  </g>
+</svg>

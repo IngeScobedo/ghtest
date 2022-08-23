@@ -1,0 +1,7 @@
+Title: Success
+
+----
+Text:
+
+##Hola {{ name }},
+Tu correo se ha enviado correctamente.

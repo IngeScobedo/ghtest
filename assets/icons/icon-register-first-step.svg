@@ -1,0 +1,9 @@
+<svg id="noun-people-3803933" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="45.087" height="45.087" viewBox="0 0 45.087 45.087">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0.259" stop-color="#47a634"/>
+      <stop offset="1" stop-color="#69b64b"/>
+    </linearGradient>
+  </defs>
+  <rect id="Rectángulo_414" data-name="Rectángulo 414" width="45.087" height="45.087" rx="16" transform="translate(0 0)" fill="url(#linear-gradient)"/>
+</svg>

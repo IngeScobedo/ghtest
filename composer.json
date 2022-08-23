@@ -1,0 +1,23 @@
+{
+  "name": "goldencode/kirbycore",
+  "description": "Kirby CMS Core",
+  "type": "project",
+  "keywords": [
+    "kirby",
+    "cms",
+    "starterkit"
+  ],
+  "require": {
+    "php": ">=7.4.0 <8.2.0",
+    "getkirby/cms": "^3.6"
+  },
+  "scripts": {
+    "start": [
+      "Composer\\Config::disableProcessTimeout",
+      "@php -S localhost:8000 kirby/router.php"
+    ]
+  },
+  "config": {
+    "optimize-autoloader": true
+  }
+}

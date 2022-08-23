@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <g id="Grupo_563" data-name="Grupo 563" transform="translate(-115 -261)">
+    <rect id="Rectángulo_439" data-name="Rectángulo 439" width="20" height="20" transform="translate(115 261)" fill="none"/>
+    <path id="compass" d="M11.925,12.177,6.978,14.438a1.1,1.1,0,0,0-.541.541L4.177,19.925a.678.678,0,0,0,.9.9l4.947-2.261a1.1,1.1,0,0,0,.541-.541l2.261-4.947a.678.678,0,0,0-.9-.9Zm-2.651,5.1a1.094,1.094,0,1,1,0-1.548A1.095,1.095,0,0,1,9.274,17.274ZM8.5,8A8.5,8.5,0,1,0,17,16.5,8.5,8.5,0,0,0,8.5,8Zm0,15.355A6.855,6.855,0,1,1,15.355,16.5,6.863,6.863,0,0,1,8.5,23.355Z" transform="translate(116.5 254.5)" fill="#007db3"/>
+  </g>
+</svg>

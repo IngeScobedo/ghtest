@@ -1,0 +1,337 @@
+title: Home
+preset: page
+pages: false
+fields:
+  carousel:
+    label: Carrusel
+    type: structure
+    fields: 
+      image:
+        label: Imágen
+        type: files
+        max: 1
+        min: 1
+        template: image
+        layout: cards
+        width: 1/4
+      resImage:
+        label: Imágen para móvil
+        type: files
+        max: 1
+        template: image
+        layout: cards
+        width: 1/4
+        help: Opcional
+      text:
+        label: Encabezado
+        type: textarea
+        size: small
+        width: 1/2
+      positionX:
+        label: Alineación horizontal del contenido
+        type: select
+        default: left
+        width: 1/2
+        required: true
+        options:
+          left: Izquierda
+          center: Centrado
+          right: Derecha
+      positionY:
+        label: Alineación vertical del contenido
+        type: select
+        default: center
+        width: 1/2
+        required: true
+        options:
+          top: Arriba
+          center: Centrado
+          bottom: Abajo
+      textAlign:
+        label: Alineación del texto
+        type: select
+        default: start
+        width: 1/2
+        required: true
+        options:
+          start: Izquierda
+          center: Centrado
+          end: Derecha
+      textColor:
+        label: Color del texto
+        type: select
+        default: white
+        width: 1/2
+        options:
+          white: Blanco
+          primary: Azul
+          secondary: Verde
+          text: Gris
+      useButton:
+        label: Mostrar botón
+        type: toggle
+        width: 1/3
+        text:
+          - No mostrar
+          - Mostrar
+      buttonText:
+        label: Etiqueta del botón
+        type: text
+        width: 2/3
+      buttonPage:
+        label: Página del botón
+        type: pages
+        max: 1
+        width: 1/2
+      buttonUrl:
+        label: Url del botón
+        type: url
+        width: 1/2
+        help: En caso de no seleccionar una página del sitio
+
+  h1:
+    type: headline
+    label: Búsqueda avanzada
+    numbered: false
+  searchHeader:
+    label: Encabezado
+    type: text
+    width: 1/3
+  advancedSearchUrl:
+    label: Url
+    type: text
+    width: 2/3
+  formLabels:
+    label: Labels del formulario de búsqueda avanzada
+    type: headline
+    numbered: false
+  searchplaceholder:
+    label: Placeholder del campo de búsqueda
+    type: text
+    width: 1/3
+  labelSwitch: 
+    label: Switch entre cliente y proveedor
+    type: text
+    width: 1/3
+  labelPrice:
+    label: Campo precio
+    type: text
+    width: 1/3
+  labelCategory:
+    label: Campo categoría
+    type: text
+    width: 1/3
+  labelLocation:
+    label: Campo ubicación
+    type: text
+    width: 1/3
+  labelSubmit:
+    label: Etiqueta del botón de búsqueda
+    type: text
+    width: 1/3
+  featuresSection:
+    label: Sección de características
+    type: headline
+    numbered: false
+  firstFeature:
+    label: Textos de la primera característica
+    type: headline
+    numbered: false
+  imageFirstFeature:
+    label: Imágen de la primera característica
+    type: files
+    min: 1
+    max: 1
+    template: image
+    layout: cards
+    width: 1/3
+  firstText:
+    label: Primer texto
+    type: text
+    size: small
+    width: 1/3
+  secondText:
+    label: Segundo texto
+    type: text
+    size: small
+    width: 1/3
+  thirdText:
+    label: Tercer texto
+    type: text
+    size: small
+    width: 1/3
+  secondFeature:
+    label: Textos de la segunda característica
+    type: headline
+    numbered: false
+  imageSecondFeature:
+    label: Imágen de la segunda característica
+    type: files
+    min: 1
+    max: 1
+    template: image
+    layout: cards
+    width: 1/3
+  secondFirstText:
+    label: Primer texto
+    type: text
+    size: small
+    width: 1/3
+  secondSecondText:
+    label: Segundo texto
+    type: text
+    size: small
+    width: 1/3
+  secondThirdText:
+    label: Tercer texto
+    type: text
+    size: small
+    width: 1/3
+  thirdFeature:
+    label: Textos de la tercera característica
+    type: headline
+    numbered: false
+  imageThirdFeature:
+    label: Imágen de la tercera característica
+    type: files
+    min: 1
+    max: 1
+    template: image
+    layout: cards
+    width: 1/3
+  thirdFirstText:
+    label: Primer texto
+    type: text
+    size: small
+    width: 1/3
+  thirdSecondText:
+    label: Segundo texto
+    type: text
+    size: small
+    width: 1/3
+  thirdThirdText:
+    label: Tercer texto
+    type: text
+    size: small
+    width: 1/3
+  exclusiveBenefits:
+    label: Textos de los beneficios exclusivos
+    type: headline
+    numbered: false
+  benefitsHeader:
+    label: Encabezado
+    type: text
+    width: 1/3
+  benefitsSubheader:
+    label: Subencabezado
+    type: text
+    width: 1/3
+  benefitsTable:
+    label: Tabla de beneficios
+    type: structure
+    min: 6
+    max: 6
+    fields:
+      title:
+        label: Título
+        type: text
+        width: 1/3
+      image:
+        label: Imágen
+        type: files
+        max: 1
+        min: 1
+        template: image
+        layout: cards
+        width: 1/3
+  textBenefitsButton:
+    label: Texto del botón de beneficios
+    type: text
+    width: 1/3
+  hcompanies:
+    type: headline
+    label: Empresas
+    numbered: false
+  companiesHeader:
+    label: Encabezado
+    type: text
+    width: 1/2
+  companiesSubheader:
+    label: Subencabezado
+    type: text
+    width: 1/3
+  textCompaniesButton:
+    label: Texto del botón de empresas
+    type: text
+    width: 1/3
+  companiesButtonHref:
+    label: Destino del botón
+    type: url
+    width: 1/4
+  companiesService:
+    label: Ruta del servicio
+    type: text
+
+  l2:
+    type: line
+
+  hproducts:
+    type: headline
+    label: Productos
+    numbered: false
+  productsHeader:
+    label: Encabezado
+    type: text
+    width: 1/2
+  productsSubheader:
+    label: Subencabezado
+    type: text
+    width: 1/3
+  productsCodePrefix:
+    label: Prefijo del código
+    type: text
+    width: 1/3
+  productsButtonText:
+    label: Texto del botón
+    type: text
+    width: 1/4
+  productsButtonHref:
+    label: Destino del botón
+    type: url
+    width: 1/4
+  productsService:
+    label: Ruta del servicio
+    type: text
+  hBenefits:
+    type: headline
+    label: Textos de la sección de beneficios
+    numbered: false
+  benefitsRegisterHeader:
+    label: Encabezado
+    type: text
+    width: 1/2
+  benefitsRegisterSubheader:
+    label: Subencabezado
+    type: text
+    width: 1/3
+  benefitsRegisterTable:
+    label: Tabla de beneficios
+    type: structure
+    min: 3
+    max: 3
+    fields:
+      title:
+        label: Título
+        type: text
+        width: 1/3
+  textBenefitsRegisterButton:
+    label: Texto del botón de registro
+    type: text
+    width: 1/3
+  bottomBanner:
+    name: Banner inferior
+    type: files
+    max: 1
+    layout: cards
+    template: image
+    width: 1/3

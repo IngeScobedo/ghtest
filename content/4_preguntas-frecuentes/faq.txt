@@ -1,0 +1,122 @@
+Title: Preguntas frecuentes
+
+----
+
+Faq:
+
+- 
+  question: ¿Cómo me registro?
+  answer: |
+    Haz clic en el botón de Registrarme
+    
+    (link: https://youtube.com text: Ve este video)
+- 
+  question: >
+    ¿Lorem ipsum dolor sit amet,
+    consectetur adipiscing?
+  answer: >
+    Lorem ipsum dolor sit amet, consectetur
+    adipiscing elit. Fusce ut tincidunt
+    lectus. Curabitur sed mollis mauris.
+    Nullam fringilla purus eu erat
+    vestibulum eleifend. Sed vitae placerat
+    nulla, ac
+- 
+  question: >
+    ¿Lorem ipsum dolor sit amet,
+    consectetur adipiscing?
+  answer: >
+    Lorem ipsum dolor sit amet, consectetur
+    adipiscing elit. Fusce ut tincidunt
+    lectus. Curabitur sed mollis mauris.
+    Nullam fringilla purus eu erat
+    vestibulum eleifend. Sed vitae placerat
+    nulla, ac
+- 
+  question: >
+    ¿Lorem ipsum dolor sit amet,
+    consectetur adipiscing?
+  answer: >
+    Lorem ipsum dolor sit amet, consectetur
+    adipiscing elit. Fusce ut tincidunt
+    lectus. Curabitur sed mollis mauris.
+    Nullam fringilla purus eu erat
+    vestibulum eleifend. Sed vitae placerat
+    nulla, ac
+- 
+  question: >
+    ¿Lorem ipsum dolor sit amet,
+    consectetur adipiscing?
+  answer: >
+    Lorem ipsum dolor sit amet, consectetur
+    adipiscing elit. Fusce ut tincidunt
+    lectus. Curabitur sed mollis mauris.
+    Nullam fringilla purus eu erat
+    vestibulum eleifend. Sed vitae placerat
+    nulla, ac
+- 
+  question: >
+    ¿Lorem ipsum dolor sit amet,
+    consectetur adipiscing?
+  answer: >
+    Lorem ipsum dolor sit amet, consectetur
+    adipiscing elit. Fusce ut tincidunt
+    lectus. Curabitur sed mollis mauris.
+    Nullam fringilla purus eu erat
+    vestibulum eleifend. Sed vitae placerat
+    nulla, ac
+- 
+  question: >
+    ¿Lorem ipsum dolor sit amet,
+    consectetur adipiscing?
+  answer: >
+    Lorem ipsum dolor sit amet, consectetur
+    adipiscing elit. Fusce ut tincidunt
+    lectus. Curabitur sed mollis mauris.
+    Nullam fringilla purus eu erat
+    vestibulum eleifend. Sed vitae placerat
+    nulla, ac
+- 
+  question: >
+    ¿Lorem ipsum dolor sit amet,
+    consectetur adipiscing?
+  answer: >
+    Lorem ipsum dolor sit amet, consectetur
+    adipiscing elit. Fusce ut tincidunt
+    lectus. Curabitur sed mollis mauris.
+    Nullam fringilla purus eu erat
+    vestibulum eleifend. Sed vitae placerat
+    nulla, ac
+- 
+  question: >
+    ¿Lorem ipsum dolor sit amet,
+    consectetur adipiscing?
+  answer: >
+    Lorem ipsum dolor sit amet, consectetur
+    adipiscing elit. Fusce ut tincidunt
+    lectus. Curabitur sed mollis mauris.
+    Nullam fringilla purus eu erat
+    vestibulum eleifend. Sed vitae placerat
+    nulla, ac
+- 
+  question: >
+    ¿Lorem ipsum dolor sit amet,
+    consectetur adipiscing?
+  answer: >
+    Lorem ipsum dolor sit amet, consectetur
+    adipiscing elit. Fusce ut tincidunt
+    lectus. Curabitur sed mollis mauris.
+    Nullam fringilla purus eu erat
+    vestibulum eleifend. Sed vitae placerat
+    nulla, ac
+- 
+  question: >
+    ¿Lorem ipsum dolor sit amet,
+    consectetur adipiscing?
+  answer: >
+    Lorem ipsum dolor sit amet, consectetur
+    adipiscing elit. Fusce ut tincidunt
+    lectus. Curabitur sed mollis mauris.
+    Nullam fringilla purus eu erat
+    vestibulum eleifend. Sed vitae placerat
+    nulla, ac

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="183" height="50" viewBox="0 0 183 50">
+  <defs>
+    <filter id="background" x="0" y="0" width="119" height="50" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Componente_7_2" data-name="Componente 7 – 2" transform="translate(9 6)">
+    <rect id="background-2" data-name="background" width="174" height="32" rx="16" fill="#eaeaea"/>
+    <g transform="matrix(1, 0, 0, 1, -9, -6)" filter="url(#background)">
+      <rect id="background-3" data-name="background" width="101" height="32" rx="15" transform="translate(9 6)" fill="#007db3"/>
+    </g>
+    <text id="A_transformative_tri" data-name="A transformative tri" transform="translate(12 21)" fill="#fff" font-size="12" font-family="Helvetica-Bold, Helvetica" font-weight="700" opacity="0.92"><tspan x="0" y="0">Proveedores</tspan></text>
+    <text id="A_transformative_tri-2" data-name="A transformative tri" transform="translate(113 21)" fill="#73787a" font-size="12" font-family="Helvetica-Bold, Helvetica" font-weight="700" opacity="0.92"><tspan x="0" y="0">Clientes</tspan></text>
+  </g>
+</svg>

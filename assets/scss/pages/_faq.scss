@@ -1,0 +1,53 @@
+.faq {
+
+    .section-header {
+        padding: 3rem 0;
+        text-align: center;
+        background: linear-gradient(65deg, #007DB3, #2499CB);
+    }
+
+    .section {
+        margin: 3rem auto;
+        @include media(small) {
+            margin: 3rem auto;
+            padding: 0 1rem;
+        }
+    }
+    .accordion-item {
+        border: 1px solid $color-divider;
+        
+        &:not(:first-of-type) {
+            border-top: 0;
+        }
+        &:first-of-type {
+            border-top-left-radius: 0.4rem;
+            border-top-right-radius: 0.4rem;
+            .accordion-button {
+                border-top-left-radius: calc(0.4rem - 1px);
+                border-top-right-radius: calc(0.4rem - 1px);
+            }
+        }
+        .accordion-button {
+            color: $color-text;
+
+            &:focus {
+                box-shadow: none;
+            }
+            &::after {
+                background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='256.05' height='148.963' viewBox='0 0 256.05 148.963'%3E%3Cpath id='angle-down' d='M119.5,326.9,3.5,209.1a12.011,12.011,0,0,1,0-17l7.1-7.1a12.011,12.011,0,0,1,17,0L128,287.3,228.4,185.1a12.011,12.011,0,0,1,17,0l7.1,7.1a12.011,12.011,0,0,1,0,17L136.5,327A12.1,12.1,0,0,1,119.5,326.9Z' transform='translate(0.025 -181.475)' fill='%23707070'/%3E%3C/svg%3E%0A");
+                width: 1rem;
+                height: 0.6rem;
+                background-size: contain;
+            }
+            &:not(.collapsed) {
+                color: $color-primary;
+                font-weight: 500;
+                background-color: $input-background;
+                &::after {
+                    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='256.05' height='148.963' viewBox='0 0 256.05 148.963'%3E%3Cpath id='angle-down' d='M119.5,326.9,3.5,209.1a12.011,12.011,0,0,1,0-17l7.1-7.1a12.011,12.011,0,0,1,17,0L128,287.3,228.4,185.1a12.011,12.011,0,0,1,17,0l7.1,7.1a12.011,12.011,0,0,1,0,17L136.5,327A12.1,12.1,0,0,1,119.5,326.9Z' transform='translate(0.025 -181.475)' fill='%23007DB3'/%3E%3C/svg%3E%0A");
+                }
+            }  
+        }      
+    }
+
+}

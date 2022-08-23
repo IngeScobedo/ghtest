@@ -1,0 +1,212 @@
+@media screen and (min-width: 768px) {
+	header {
+		&:hover {
+			background-color: #0e8dbf85;
+			border-radius: 16px;
+			backdrop-filter: blur(8px) brightness(1.05);
+			box-shadow: 6px 8px 16px #00000026;
+		}
+
+		a {
+			transition: all 500ms ease-in-out;
+		}
+		transition: all 500ms ease-in-out;
+
+		&:hover {
+
+			.navigation,
+			.login {
+				opacity: 1;
+				position: relative;
+			}
+
+			.toggle-menu {
+				opacity: 0;
+				position: absolute;
+			}
+
+			.toggle-container {
+				opacity: 0;
+				scale: 3;
+			}
+		}
+
+		.toggle-container {
+			opacity: 1;
+			scale: 1;
+		}
+
+		.toggle-menu {
+			opacity: 1;
+			position: relative;
+		}
+
+		.navigation,
+		.login {
+			opacity: 0;
+			position: absolute;
+		}
+	}
+}
+
+// header {
+// 	position: relative;
+// 	width: 100%;
+// 	z-index: 100;
+
+// 	.header-upper {
+// 		padding: 1rem 2rem 0.5rem 2rem;
+// 		display: flex;
+// 		align-items: center;
+// 		justify-content: space-between;
+
+// 		@include container;
+
+// 		@include media(small) {
+// 			padding: 0.75rem 1rem;
+// 			flex-wrap: wrap;
+// 		}
+
+// 		&_logo {
+// 			width: 30%;
+
+// 			@include media(small) {
+// 				width: 40%;
+// 			}
+
+// 			img,
+// 			svg {
+// 				width: 200px;
+// 				object-fit: contain;
+// 			}
+// 		}
+
+// 		.toggle-menu {}
+
+// 		&_searchbar {
+// 			position: relative;
+// 			width: 40%;
+// 			max-width: 400px;
+// 			margin: auto;
+// 			display: flex;
+// 			border: 1px solid $color-divider;
+// 			border-radius: 0.25rem;
+// 			background: $input-background;
+// 			font-weight: 500;
+// 			font-size: 0.875rem;
+
+// 			@include media(small) {
+// 				width: 100%;
+// 				max-width: unset;
+// 				margin-top: 1rem;
+// 			}
+
+// 			input {
+// 				width: 100%;
+// 				background: none;
+// 				border: none;
+// 				padding: 0.45rem 0.75rem;
+// 				color: $color-text;
+
+// 				&:focus-visible {
+// 					outline: none;
+// 				}
+
+// 				@include media(small) {
+// 					padding: 0.6rem 0.75rem;
+// 				}
+// 			}
+
+// 			button {
+// 				background: none;
+// 				border: none;
+// 				padding: 0 0.75rem;
+// 				display: flex;
+// 				align-items: center;
+// 			}
+
+// 			.search-options {
+// 				position: absolute;
+// 				background: #FFF;
+// 				border-radius: 0.25rem;
+// 				top: 110%;
+// 				left: 0;
+// 				width: 100%;
+// 				overflow: hidden;
+// 				display: none;
+
+// 				&.display {
+// 					display: block;
+// 				}
+
+// 				.help {
+// 					display: block;
+// 					background: $input-background;
+// 				}
+
+// 				.search-target,
+// 				.help {
+// 					padding: 0.5rem 0.75rem;
+// 				}
+
+// 				.search-target {
+// 					display: flex;
+// 					white-space: nowrap;
+// 					align-items: center;
+// 					font-weight: normal;
+
+// 					&:hover {
+// 						color: $color-text;
+// 						background: $input-background;
+// 					}
+
+// 					.search-query {
+// 						max-width: 100%;
+// 						display: inline-block;
+// 						white-space: nowrap;
+// 						overflow: hidden;
+// 						text-overflow: ellipsis;
+// 					}
+// 				}
+// 			}
+// 		}
+
+// 		&_login-buttons {
+// 			width: 30%;
+// 			text-align: right;
+
+// 			@include media(small) {
+// 				display: none;
+// 			}
+
+// 			a.secondary {
+// 				padding: 0.4rem 0.75rem;
+// 				color: #707070;
+// 			}
+// 		}
+// 	}
+
+// 	&-navigation {
+// 		padding: 0.5rem 1.5rem 1rem;
+// 		font-size: 0.875rem;
+
+// 		@include container;
+
+// 		@include media(small) {
+// 			display: none;
+// 		}
+
+// 		a {
+// 			color: $color-primary;
+// 			margin: 0 0.5rem;
+// 			border-bottom: 2px transparent;
+// 			font-weight: 500;
+
+// 			&.active {
+// 				border-bottom: 2px solid;
+// 			}
+
+// 			&:hover {}
+// 		}
+// 	}
+// }

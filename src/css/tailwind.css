@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .input {
+        @apply w-full h-8 text-xs text-white placeholder:text-white pl-3 bg-transparent border border-white rounded-[16px];
+    }
+    .btn-blue-dark {
+        @apply py-4 px-2 text-white bg-blue-dark rounded-[5px] text-[16px] font-bold min-w-[151px] text-center;
+    }
+}

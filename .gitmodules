@@ -1,0 +1,3 @@
+[submodule "site/plugins/upload-extended"]
+	path = site/plugins/upload-extended
+	url = https://github.com/AngelKero/kirby-upload-extended.git

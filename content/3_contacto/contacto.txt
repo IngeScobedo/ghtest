@@ -1,0 +1,73 @@
+Title: Contacto
+
+----
+
+Lateral:
+
+- contact.png
+
+----
+
+Header: Contacto
+
+----
+
+Text: Tus comentarios son muy importantes para nosotros.
+
+----
+
+Recipient: esteban.serna@goldensub.com
+
+----
+
+Address: 
+
+----
+
+Email: 
+
+----
+
+Phone1: 
+
+----
+
+Phone2: 
+
+----
+
+Socialmedia: 
+
+----
+
+Image:
+
+- 
+  id: contacto/contact.png
+  image:
+    back: pattern
+    color: orange-400
+    cover: false
+    icon: file-image
+    ratio: 3/2
+    url: >
+      http://localhost/multiplika-landing/media/pages/contacto/8789ad12b7-1654906655/contact.png
+    src: >
+      data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw
+    srcset: >
+      http://localhost/multiplika-landing/media/pages/contacto/8789ad12b7-1654906655/contact-352x.png
+      352w,
+      http://localhost/multiplika-landing/media/pages/contacto/8789ad12b7-1654906655/contact-864x.png
+      864w,
+      http://localhost/multiplika-landing/media/pages/contacto/8789ad12b7-1654906655/contact-1408x.png
+      1408w
+  info: ""
+  link: /pages/contacto/files/contact.png
+  sortable: true
+  text: contact.png
+  filename: contact.png
+  dragText: '(image: contact.png)'
+  type: image
+  url: >
+    http://localhost/multiplika-landing/media/pages/contacto/8789ad12b7-1654906655/contact.png
+  uuid: contact.png

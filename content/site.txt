@@ -1,0 +1,301 @@
+Title: Multiplika
+
+----
+
+Favicon:
+
+- favicon.png
+
+----
+
+Logo:
+
+- logo-multiplika-new.svg
+
+----
+
+Logowhite:
+
+- logo-multiplika-new.svg
+
+----
+
+Headermenu:
+
+- 
+  title: Inicio
+  page:
+    - home
+  url: ""
+  icon:
+    - home.svg
+  showondesktop: 'false'
+- 
+  title: Empresas
+  page: [ ]
+  url: >
+    https://multiplika.herokuapp.com/empresas
+  icon:
+    - briefcase.svg
+  showondesktop: 'true'
+- 
+  title: Productos
+  page: [ ]
+  url: >
+    https://multiplika.herokuapp.com/productos
+  icon:
+    - tag.svg
+  showondesktop: 'true'
+- 
+  title: Conoce Multiplika
+  page:
+    - conoce-multiplika
+  url: ""
+  icon:
+    - compass.svg
+  showondesktop: 'true'
+- 
+  title: Membresías y beneficios
+  page: [ ]
+  url: 'http://goldensubdev.com/conoce-multiplika#Membresías_y_beneficios'
+  icon:
+    - check-circle.svg
+  showondesktop: 'true'
+- 
+  title: Preguntas frecuentes
+  page:
+    - preguntas-frecuentes
+  url: ""
+  icon:
+    - question-square.svg
+  showondesktop: 'false'
+- 
+  title: Contacto
+  page:
+    - contacto
+  url: ""
+  icon:
+    - comment-dots.svg
+  showondesktop: 'false'
+
+----
+
+Footermenu:
+
+- 
+  title: Inicio
+  page:
+    - home
+  url: ""
+- 
+  title: Empresas
+  page: [ ]
+  url: >
+    https://multiplika.herokuapp.com/empresas
+- 
+  title: Productos
+  page: [ ]
+  url: >
+    https://multiplika.herokuapp.com/productos
+- 
+  title: Preguntas frecuentes
+  page:
+    - preguntas-frecuentes
+  url: ""
+- 
+  title: Contacto
+  page:
+    - contacto
+  url: ""
+- 
+  title: Políticas de uso
+  page:
+    - politicas-de-uso
+  url: ""
+
+----
+
+Socialmedia:
+
+- 
+  title: Facebook
+  url: https://facebook.com
+  icon:
+    - facebook-square.svg
+- 
+  title: Instagram
+  url: https://instagram.com
+  icon:
+    - instagram.svg
+
+----
+
+Copyright: © 2022, Multiplika
+
+----
+
+Remoteapiurl: http://44.207.124.43:8830
+
+----
+
+Apiuser: servext
+
+----
+
+Apipassword: s3rv3xt12345
+
+----
+
+Resourcesurl: http://44.207.124.43:8830
+
+----
+
+Companiesquicksearch: https://multiplika.herokuapp.com/empresas
+
+----
+
+Productsquicksearch: https://multiplika.herokuapp.com/productos
+
+----
+
+Meta-title: 
+
+----
+
+Meta-description: 
+
+----
+
+Meta-canonical-url: 
+
+----
+
+Meta-author: 
+
+----
+
+Meta-image: 
+
+----
+
+Meta-phone-number: 
+
+----
+
+Og-title: 
+
+----
+
+Og-description: 
+
+----
+
+Og-image: 
+
+----
+
+Og-site-name: 
+
+----
+
+Og-url: 
+
+----
+
+Og-audio: 
+
+----
+
+Og-video: 
+
+----
+
+Og-determiner: 
+
+----
+
+Og-type: 
+
+----
+
+Og-type-article-published-time: 
+
+----
+
+Og-type-article-modified-time: 
+
+----
+
+Og-type-article-expiration-time: 
+
+----
+
+Og-type-article-author: 
+
+----
+
+Og-type-article-section: 
+
+----
+
+Og-type-article-tag: 
+
+----
+
+Twitter-title: 
+
+----
+
+Twitter-description: 
+
+----
+
+Twitter-image: 
+
+----
+
+Twitter-card-type: 
+
+----
+
+Twitter-site: 
+
+----
+
+Twitter-creator: 
+
+----
+
+Robots-noindex: 
+
+----
+
+Robots-nofollow: 
+
+----
+
+Robots-noarchive: 
+
+----
+
+Robots-noimageindex: 
+
+----
+
+Robots-nosnippet: 
+
+----
+
+Salequicksearch: /paxissb/web/system/productos/venta/busqueda/rapida
+
+----
+
+Purchasequicksearch: /paxissb/web/system/productos/compra/busqueda/rapida
+
+----
+
+Auctionquicksearch: /paxissb/web/system/productos/saldo/busqueda/rapida
+
+----
+
+Logo-white: - logo_white.svg

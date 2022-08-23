@@ -1,0 +1,123 @@
+title: Site
+
+tabs:
+    content:
+        icon: template
+        label: Sitio web
+        sections:
+            drafts:
+                headline: Borradores
+                type: pages
+                status: draft
+            unlisted:
+                headline: Sin publicar
+                type: pages
+                status: unlisted
+            listed:
+                headline: Publicadas
+                type: pages
+                status: listed
+    general:
+        icon: cog
+        label: Ajustes generales
+        columns:
+            left:
+                width: 2/3
+                fields:
+                    favicon:
+                        type: files
+                        max: 1
+                        template: image
+                        layout: cards
+                        width: 1/3
+                    logo:
+                        type: files
+                        max: 1
+                        template: image
+                        layout: cards
+                        width: 1/3
+                    logoWhite:
+                        label: Logo para fondo oscuro
+                        type: files
+                        max: 1
+                        template: image
+                        layout: cards
+                        width: 1/3
+                    headerMenu:
+                        extends: fields/navigation
+                        label: Navegación superior
+                        fields:
+                            icon:
+                                label: Ícono
+                                type: files
+                                max: 1
+                                template: image
+                                layout: cards
+                                width: 1/4
+                            showOnDesktop:
+                                label: Mostrar en escritorio
+                                type: toggle
+                                default: true
+                                text:
+                                    - Solo en móvil
+                                    - Sí
+                    footerMenu:
+                        extends: fields/navigation
+                        label: Navegación del pie de página
+                    socialMedia:
+                        label: Redes sociales
+                        type: structure
+                        width: 2/3
+                        fields:
+                            title:
+                                label: Nombre
+                                type: text
+                                width: 1/3
+                            url:
+                                label: Enlace
+                                type: url
+                                width: 2/3
+                            icon:
+                                label: Ícono
+                                type: files
+                                max: 1
+                                min: 1
+                                width: 1/2
+                    copyright:
+                        type: text
+                        width: 1/3
+                    remoteApiUrl:
+                        type: url
+                        label: Url de la API
+                        width: 1/3
+                    apiUser:
+                        type: text
+                        label: Usuario
+                        width: 1/3
+                    apiPassword:
+                        type: text
+                        label: Contraseña
+                        width: 1/3
+                    resourcesUrl:
+                        type: text
+                        label: Url base de los recursos
+                        width: 1/3
+                    h1:
+                        type: headline
+                        label: Url's de búsqueda rápida
+                        numbered: false
+                    companiesQuickSearch:
+                        type: text
+                        label: Empresas
+                        width: 1/2
+                    productsQuickSearch:
+                        type: text
+                        label: Productos
+                        width: 1/2
+            right:
+                width: 1/3
+                sections:
+                    files: true
+
+
+    seotab: seo

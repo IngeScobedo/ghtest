@@ -1,0 +1,9 @@
+title: Políticas de uso
+preset: page
+pages: false
+files: false
+fields:
+  text:
+    label: Contenido
+    type: textarea
+    size: large

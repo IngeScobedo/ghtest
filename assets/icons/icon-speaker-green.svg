@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0.259" stop-color="#47a634"/>
+      <stop offset="1" stop-color="#69b64b"/>
+    </linearGradient>
+  </defs>
+  <g id="Grupo_611" data-name="Grupo 611" transform="translate(-214 -1895)">
+    <rect id="Rectángulo_24" data-name="Rectángulo 24" width="32" height="32" rx="7" transform="translate(214 1895)" fill="url(#linear-gradient)"/>
+    <g id="Grupo_501" data-name="Grupo 501" transform="translate(221 1903.689)">
+      <path id="noun-ads-3264371" d="M82.133,56.586a.574.574,0,0,0-.249.063l-5.977,3.119v7.293l5.977,3.119a.573.573,0,0,0,.838-.508V57.157a.573.573,0,0,0-.588-.57Zm4.012,2.7a.573.573,0,0,0-.393.173L84.708,60.5a.573.573,0,1,0,.808.812l1.048-1.048a.573.573,0,0,0-.418-.981Zm-15.7.852a.573.573,0,0,0-.573.573v5.405a.573.573,0,0,0,.573.573h4.324V60.139Zm15.707,2.7a.573.573,0,1,0,0,1.146h1.48a.573.573,0,1,0,0-1.146Zm-1.045,2.5h0a.573.573,0,0,0-.4.985l1.045,1.044a.573.573,0,1,0,.811-.807l-1.048-1.048a.573.573,0,0,0-.41-.173Zm-13.915,2.5.774,2.945h0a.573.573,0,0,0,.554.427h2.274a.573.573,0,0,0,.554-.718l-.7-2.654Z" transform="translate(-69.87 -56.586)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

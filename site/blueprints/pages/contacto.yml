@@ -1,0 +1,26 @@
+title: Contacto
+preset: page
+pages: false
+fields:
+  lateral:
+    label: Imagen lateral
+    type: files
+    template: image
+    width: 1/2
+    layout: cards
+  
+  header:
+    label: Encabezado
+    type: text
+    width: 1/2
+  text:
+    label: Mensaje opcional
+    type: textarea
+    width: 1/2
+    size: small
+  
+  recipient:
+    label: Receptor del formulario
+    type: email
+    width: 1/2
+    help: A esta dirección serán enviados los correos

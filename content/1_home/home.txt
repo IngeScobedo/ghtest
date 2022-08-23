@@ -1,0 +1,269 @@
+Title: Inicio
+
+----
+
+Carousel:
+
+- 
+  image:
+    - home.png
+  resimage:
+    - home_res-1.png
+  text: |
+    # Multiplika
+    Encuentra fácil y rápido cientos de proveedores y clientes.
+  positionx: left
+  positiony: top
+  textalign: start
+  textcolor: white
+  usebutton: 'true'
+  buttontext: Registrarme
+  buttonpage: [ ]
+  buttonurl: ""
+  media:
+    - home.png
+- 
+  image:
+    - home-2.png
+  resimage:
+    - home_res-2.png
+  text: |
+    ### Explora entre miles de productos
+    y encuentra proveedores cerca de ti
+  positionx: right
+  positiony: center
+  textalign: center
+  textcolor: white
+  usebutton: 'false'
+  buttontext: ""
+  buttonpage: [ ]
+  buttonurl: ""
+  media:
+    - home-2.png
+
+----
+
+Searchheader: ¿Qué estás buscando?
+
+----
+
+Advancedsearchurl: https://multiplika.herokuapp.com/productos
+
+----
+
+Searchplaceholder: Buscar
+
+----
+
+Labelswitch: Quiero encontrar
+
+----
+
+Labelprice: Precio
+
+----
+
+Labelcategory: Categoría
+
+----
+
+Labellocation: Ubicación
+
+----
+
+Labelsubmit: Buscar
+
+----
+
+Imagefirstfeature:
+
+- group-register.png
+
+----
+
+Firsttext: REGISTRA TU EMPRESA GRATIS
+
+----
+
+Secondtext: Y CONSIGUE CLIENTES FÁCILMENTE
+
+----
+
+Thirdtext: Publica lo que vendes y compras dentro de tu catálogo electrónico con imágenes y videos.
+
+----
+
+Imagesecondfeature:
+
+- boxes-second-step.png
+
+----
+
+Secondfirsttext: LOCALIZA PROVEEDORES
+
+----
+
+Secondsecondtext: DE FORMA RÁPIDA
+
+----
+
+Secondthirdtext: Utiliza nuestro buscador avanzado y encuentra clientes y proveedores fácil y rápido
+
+----
+
+Imagethirdfeature:
+
+- headphones-third-benefit.svg
+
+----
+
+Thirdfirsttext: ANUNCIA TUS
+
+----
+
+Thirdsecondtext: PRODUCTOS Y SERVICIOS
+
+----
+
+Thirdthirdtext: Responde cotizaciones en línea de clientes interesados en tus productos.
+
+----
+
+Benefitsheader: BENEFICIOS EXCLUSIVOS
+
+----
+
+Benefitssubheader: MEMBRESÍA FREEMIUM
+
+----
+
+Benefitstable:
+
+- 
+  title: Registro completamente gratis
+  image:
+    - icon-free-register-green.svg
+- 
+  title: 'Comparte tu  catálogo de productos'
+  image:
+    - icon-share-white.svg
+- 
+  title: >
+    Solicita cotizaciones de los productos
+    que necesitas
+  image:
+    - icon-price-white.svg
+- 
+  title: Ofrece tus productos de saldo
+  image:
+    - icon-offer-white.svg
+- 
+  title: 'Muestra a tus clientes  en dónde encontrarte'
+  image:
+    - icon-mark-white.svg
+- 
+  title: >
+    Envía y recibe mensajes de tus clientes
+    y proveedores
+  image:
+    - icon-email-white.svg
+
+----
+
+Textbenefitsbutton: Ver membresías
+
+----
+
+Companiesheader: Últimas
+
+----
+
+Companiessubheader: empresas verificadas
+
+----
+
+Textcompaniesbutton: Ver más
+
+----
+
+Companiesbuttonhref: 
+
+----
+
+Companiesservice: /paxissb/web/system/empresas/ultimas-registradas
+
+----
+
+Productsheader: Productos
+
+----
+
+Productssubheader: más recientes
+
+----
+
+Productscodeprefix: SKU
+
+----
+
+Productsbuttontext: Ver más
+
+----
+
+Productsbuttonhref: 
+
+----
+
+Productsservice: /paxissb/web/system/productos/venta/ultimos-registrados
+
+----
+
+Benefitsregisterheader: PUBLICA TU EMPRESA Y DISFRUTA DE
+
+----
+
+Benefitsregistersubheader: MÁS BENEFICIOS MULTIPLIKA
+
+----
+
+Benefitsregistertable:
+
+- 
+  title: Accede al sistema de puntos
+- 
+  title: >
+    Solicita cotizaciones en volumen a tus
+    proveedores
+- 
+  title: >
+    Envía promociones a tus listas de
+    clientes
+
+----
+
+Textbenefitsregisterbutton: Comenzar
+
+----
+
+Bottombanner:
+
+- bottom.png
+
+----
+
+Benefitstablemin:
+
+- 
+  title: Accede al sistema de puntos
+- 
+  title: >
+    Solicita cotizaciones en volumen a tus
+    proveedores
+- 
+  title: >
+    Envía promociones a tus listas de
+    clientes
+
+----
+
+Companiesbuttontext: Ver más

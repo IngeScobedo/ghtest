@@ -1,0 +1,5 @@
+Title: Error
+
+----
+
+Text: ## No hemos encontrado la página que buscas

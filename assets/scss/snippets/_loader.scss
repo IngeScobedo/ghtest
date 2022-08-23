@@ -1,0 +1,69 @@
+$loader-colors: #FFFFFF;
+$loader-dash: 63;
+$loader-duration: length($loader-colors) * 1s;
+$loader-duration-alt: $loader-duration / length($loader-colors);
+$loader-keyframe: 1 / (length($loader-colors) * 2) * 100;
+
+.loader-container {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background: $color-primary;
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  &.hideLoader {
+    animation: Hide 0.75s forwards;
+  }
+  .logo {
+    width: 300px;
+    object-fit: contain;
+    margin-bottom: 2rem;
+  }
+  .spinner {
+    .loader {
+      animation: loader-turn $loader-duration-alt linear infinite;
+      max-width: 75px;
+      width: 100%;
+    
+      @keyframes loader-turn {
+        50% { transform: rotate(180deg) }
+        100% { transform: rotate(720deg) }
+      }
+    }
+  }
+}
+
+.loader__value {
+  animation: loader-stroke $loader-duration linear infinite; 
+  fill: none;
+  stroke-dasharray: $loader-dash;
+  stroke-dashoffset: $loader-dash;
+  stroke-linecap: round;
+  stroke-width: 1;
+
+  @for $i from 1 through length($loader-colors) {
+    &:nth-child(#{$i}) {
+      stroke: nth($loader-colors, $i);
+      
+      @if $i > 1 {
+        animation-delay: ($i - 1) * $loader-duration-alt;
+      }
+    }
+  }
+  
+  @keyframes loader-stroke {
+    #{$loader-keyframe * 1%} { stroke-dashoffset: 0 }
+    #{$loader-keyframe * 2%}, 100% { stroke-dashoffset: $loader-dash }
+  }
+}
+
+@keyframes Hide {
+  0% {opacity: 1}
+  100% {opacity: 0}
+}

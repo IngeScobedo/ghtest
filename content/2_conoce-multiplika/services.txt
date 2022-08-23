@@ -1,0 +1,124 @@
+Title: Conoce Multiplika
+
+----
+
+Banner:
+
+- servicios.png
+
+----
+
+Resbanner:
+
+- servicios_res.png
+
+----
+
+Header: ### Explora nuestros servicios
+
+----
+
+Positionx: left
+
+----
+
+Positiony: center
+
+----
+
+Textalign: start
+
+----
+
+Textcolor: white
+
+----
+
+Services:
+
+- 
+  media:
+    - services-1.png
+    - services-2.png
+    - services-3.png
+  text: |
+    ### Consigue clientes fácilmente
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac ex blandit, tincidunt erat eu, semper quam.
+  usebutton: 'true'
+  buttontext: Encontrar clientes
+  buttonpage: [ ]
+  buttonurl: ""
+  order: right
+- 
+  media:
+    - services-map.png
+  text: |
+    ### Localiza proveedores de forma rápida
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac ex blandit, tincidunt erat eu, semper quam.
+  usebutton: 'true'
+  buttontext: Ver proveedores cerca de mí
+  buttonpage: [ ]
+  buttonurl: ""
+  order: left
+- 
+  media:
+    - services.mp4
+  text: |
+    ### Publica tu empresa
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac ex blandit, tincidunt erat eu, semper quam.
+  usebutton: 'true'
+  buttontext: Crear una cuenta
+  buttonpage: [ ]
+  buttonurl: ""
+  order: right
+- 
+  media:
+    - services-4.png
+  text: |
+    ### Anuncia tus productos y servicios
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac ex blandit, tincidunt erat eu, semper quam.
+  usebutton: 'true'
+  buttontext: Registrar mi empresa
+  buttonpage: [ ]
+  buttonurl: ""
+  order: left
+
+----
+
+Membershipsheader: Membresías
+
+----
+
+Freename: Freemium
+
+----
+
+Freedescription: Encuentra miles de productos y proveedores y comienza a promocionar tu catálogo de productos.
+
+----
+
+Freebuttontext: Comenzar
+
+----
+
+Freefeatures: <ul><li>Perfil público de la empresa</li><li>Hasta 100 productos en el catálogo de venta</li><li>Hasta 20 productos en el catálogo de saldos</li><li>Hasta 50 cotizaciones en línea</li><li>Avisos sobre nuevos clientes y proveedores</li><li>Módulo de mensajes limitado</li></ul>
+
+----
+
+Paidname: Premium
+
+----
+
+Paidprice: 499
+
+----
+
+Paiddescription: Accede a herramientas exclusivas y mayores límites de uso para tus catálogos.
+
+----
+
+Paidbuttontext: Comenzar
+
+----
+
+Paidfeatures: <ul><li>Hasta 1,000 productos en el catálogo electrónico</li><li>Cotizaciones en línea ilimitadas</li><li>Chat en línea</li><li>Módulo publicación de vacantes</li><li>Módulo sistema puntos</li><li>Ranqueo preferencial</li><li>Módulo de mensajes ilimitado</li><li>Módulo de clientes y proveedores</li><li>Envíos de cotizaciones</li><li>Envíos de promociones</li></ul>

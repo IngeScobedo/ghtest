@@ -1,0 +1,137 @@
+.services {
+    
+    &-banner {
+        height: 400px;
+        position: relative;
+
+        @include media(large) {
+            height: 40vh;
+        }
+    
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .content-container {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            padding: 5rem 10%;
+            display: flex;
+            flex-direction: column;
+    
+            @include media(small) {
+                padding: 4rem 10%;
+            }
+    
+            &.align {
+                &-top {justify-content: flex-start}
+                &-center {justify-content: center}
+                &-bottom {justify-content: flex-end}
+            }
+            &.justify {
+                &-left {align-items: flex-start}
+                &-center {align-items: center}
+                &-right {align-items: flex-end}
+            }
+            .content {
+                max-width: 60%;
+    
+                @include media(small) {
+                    max-width: 100%;
+                }
+    
+                &.c-primary >* {color: $color-primary;}
+                &.c-secondary >* {color: $color-secondary;}
+                &.c-text >* {color: $color-text;}
+                &.c-white >* {color: $color-text-light;}
+            }
+        }
+    }
+
+    &-list {
+        margin-top: 0rem;
+
+        .service-container {
+            padding: 5rem 3rem;
+
+            @include media(small) {
+                padding: 2rem 0;
+            }
+            .col {
+
+                &.left {
+                    order: 1;
+                    @include media(small) {
+                        order: unset;
+                    }
+                }
+                video, img {
+                    width: 100%;
+                    height: 100%;
+                    aspect-ratio: 3/2;
+                    object-fit: cover;
+                }
+                .splide {
+
+                    &__track {
+
+                        ul {
+
+                            li {
+
+                                img {
+
+                                }
+                            }
+                        }
+                    }
+                }
+                .service-content {
+                    display: flex;
+                    height: 100%;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: flex-start;
+                    padding-left: 2rem;
+
+                    @include media(small) {
+                        padding: 0;
+                        padding-top: 1.5rem;
+                        text-align: center;
+                        align-items: center;
+                    }
+                    &.left {
+                        text-align: right;
+                        align-items: flex-end;
+                        padding-left: 0;
+                        padding-right: 2rem;
+                        @include media(small) {
+                            padding: 0;
+                            padding-top: 1.5rem;
+                            text-align: center;
+                            align-items: center;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    &-memberships {
+        h3 {
+            text-align: center;
+        }
+
+        .row {
+
+            .col {
+
+                
+            }
+        }
+    }
+}
