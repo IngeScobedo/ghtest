@@ -14,4 +14,4 @@ jobs:
         ftp-server: files.000webhost.com
         ftp-username: kirbyghactions
         ftp-password: FtpDeploy123
-        local-dir: /public_html/
+        local-dir: ./public_html/
