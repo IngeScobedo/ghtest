@@ -8,10 +8,12 @@ jobs:
     - uses: actions/checkout@v2.1.0
       with:
         fetch-depth: 2
-    - name: FTP-Deploy-Action
-      uses: SamKirkland/FTP-Deploy-Action@3.1.1
+    - uses: kevinpainchaud/simple-ftp-deploy-action@v1.2.1
       with:
-        ftp-server: files.000webhost.com
-        ftp-username: kirbyghactions
-        ftp-password: FtpDeploy123
-        server-dir: public_html/
+        ftp_host: ${{ secrets.FTP_HOST }}
+        ftp_username: ${{ secrets.FTP_USERNAME }}
+        ftp_password: ${{ secrets.FTP_PASSWORD }}
+        local_source_dir: "./"
+        dist_target_dir: "./public_html"
+        delete: "true"
+        exclude: "'^logs/' '^README.md'"
