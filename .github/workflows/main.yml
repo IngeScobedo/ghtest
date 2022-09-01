@@ -23,5 +23,5 @@ jobs:
       with:
         server: files.000webhost.com
         username: kirbyghactions
-        password: !UserAdmin1234
+        password: ${{ secrets.FTP_PASSWORD }}
         server-dir: public_html/
