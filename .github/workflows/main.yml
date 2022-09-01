@@ -25,7 +25,7 @@ jobs:
         password: ${{ secrets.FTP_PASSWORD }}
       uses: SamKirkland/FTP-Deploy-Action@4.3.1
       with:
-        server: ${{ env.server }}
-        username: ${{ env.username }}
-        password: ${{ env.password }}
+        server: files.000webhost.com
+        username: kirbyghactions
+        password: testpassword
         server-dir: public_html/
