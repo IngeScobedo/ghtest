@@ -1,7 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+ 
 @layer components {
     .input {
         @apply w-full h-8 text-xs text-white placeholder:text-white pl-3 bg-transparent border border-white rounded-[16px];
